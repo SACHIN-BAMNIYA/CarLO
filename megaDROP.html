@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarOO</title>
+    <link rel="stylesheet" href="stylesnew.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- NAV START -->
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="#">CarlO</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#" class="desktop-item">Cars</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Cars</label>
+          <ul class="drop-menu">
+            <li><a href="#">New Cars</a></li>
+            <li><a href="#">Used Cars</a></li>
+            <li><a href="#">Car Dealers</a></li>
+            <li><a href="#">Upcoming Cars</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Services</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Services</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="img.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>Car Services</header>
+                <ul class="mega-links">
+                  <li><a href="#">Car Insurance</a></li>
+                  <li><a href="#">Car Finance</a></li>
+                  <li><a href="#">Car Servicing</a></li>
+                  <li><a href="#">Roadside Assistance</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Car Accessories</header>
+                <ul class="mega-links">
+                  <li><a href="#">Car Care Products</a></li>
+                  <li><a href="#">Car Audio</a></li>
+                  <li><a href="#">Car Interior</a></li>
+                  <li><a href="#">Car Exterior</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Car Reviews</header>
+                <ul class="mega-links">
+                  <li><a href="#">Expert Reviews</a></li>
+                  <li><a href="#">User Reviews</a></li>
+                  <li><a href="#">Car Comparisons</a></li>
+                  <li><a href="#">Latest News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  <!-- NAV END -->
+
+<!-- SECTION1 START -->
+<section id="home" class="section-home">
+    <div class="section-home-left">
+        <p>
+            Get the car of your dreams with the payment plan of your choice. There are <span class="font-bold italic">various better</span> offers from CarlO.
+        </p>
+    </div>
+    <div class="section-home-right">
+        <img id="home_car" src="images/homebg2.jpeg" class="home-car-bg">
+    </div>
+</section>
+
+<section id="about" class="section-about">
+    <div class="about-content">
+        <h3 class="about-title">we are the leaders</h3>
+        <p class="about-text">
+            We are an automotive dealership company that has been in service for fifteen years and still in the industry. We add value to our customers in every service thereby attaining national ascendance in the <b>Automotive Industry</b>. <br>
+            <a href="#" class="about-link">Learn More</a>
+        </p>
+    </div>
+
+</section>
+
+<section id="features" class="section-features">
+    <div class="features-header">
+        <h3 class="features-title">we have the best features</h3>
+        <p class="features-text">We are all about our client's comfort and safety. That's why we provide service you can ever get.</p>
+    </div>
+    <div class="features-cards">
+        <div class="feature-card">
+            <h4 class="feature-card-title">Quality Choice</h4>
+            <p class="feature-card-text">We provide quality cars in all classes and one year insurance.</p>
+            <button class="feature-card-btn">Learn More</button>
+        </div>
+        <div class="feature-card">
+            <h4 class="feature-card-title">Exclusive Service</h4>
+            <p class="feature-card-text">We provide high class services like engine oil refill and mechanics.</p>
+            <button class="feature-card-btn">Learn More</button>
+        </div>
+        <div class="feature-card">
+            <h4 class="feature-card-title">Fast Transactions</h4>
+            <p class="feature-card-text">We added new payment methods to reduce congestion in banks.</p>
+            <button class="feature-card-btn">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION2 START -->
+<header id="header">
+
+    <nav class="nav-menu">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#cars" class="nav-link">Cars</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+        <a href="#reason" class="nav-link">Reasons</a>
+    </nav>
+
+</header>
+
+<section id="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Explore our range of cars</h1>
+        <p class="hero-subtitle">Discover the best deals and offers on family cars, sedans, trucks, and more.</p>
+        <a href="#cars" class="btn-explore">Explore Cars</a>
+    </div>
+</section>
+
+<section id="cars">
+    <h2 class="cars-title">Top Picks This Week</h2>
+    <div class="car-list">
+        <div class="car-card">
+            <img src="/cars/truck1.jpg" alt="Car 1">
+            <div class="car-details">
+                <div class="car-price">$157,000</div>
+                <div class="car-condition">Brand New</div>
+            </div>
+            <div class="car-title">Queens Caravan</div>
+            <button class="btn-buy">Explore now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="/cars/luxury1.jpg" alt="Car 2">
+            <div class="car-details">
+                <div class="car-price">$85,000</div>
+                <div class="car-condition">Used</div>
+            </div>
+            <div class="car-title">Marathon 300X</div>
+            <button class="btn-buy">Explore now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="/cars/luxury3.jpg" alt="Car 2">
+            <div class="car-details">
+                <div class="car-price">$85,000</div>
+                <div class="car-condition">Used</div>
+            </div>
+            <div class="car-title">Marathon 300X</div>
+            <button class="btn-buy">Explore now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="/cars/classic1.jpg" alt="Car 3">
+            <div class="car-details">
+                <div class="car-price">$110,000</div>
+                <div class="car-condition">Certified Pre-owned</div>
+            </div>
+            <div class="car-title">Thunder 500</div>
+            <button class="btn-buy">Explore now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="/cars/classic2.jpg" alt="Car 3">
+            <div class="car-details">
+                <div class="car-price">$110,000</div>
+                <div class="car-condition">Certified Pre-owned</div>
+            </div>
+            <div class="car-title">Thunder 500</div>
+            <button class="btn-buy">Explore now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="/cars/classic3.jpg" alt="Car 3">
+            <div class="car-details">
+                <div class="car-price">$110,000</div>
+                <div class="car-condition">Certified Pre-owned</div>
+            </div>
+            <div class="car-title">Thunder 500</div>
+            <button class="btn-buy">Explore now</button>
+        </div>
+
+        <!-- Add more car cards as needed -->
+
+    </div>
+    <div class="view-more-container">
+        <button class="btn-view-more">View More</button>
+    </div>
+
+</section>
+
+
+
+
+<!-- FAQ sections -->
+ <section class="accordions"><h2>You may Ask?</h2> 
+
+
+<button class="accordion">What documents are required to sell my car?
+</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">How do I determine the value of my used car?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Can I exchange my old car for a new one?
+
+</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</section>
+ <!-- footer -->
+<footer id="footer">
+    <h3>CarlO</h3>
+    <div class="footer-content">
+        <div class="newsletter">
+            <p>At CarlO, we have the best and we believe we can deliver quality service excellence for all our customers. <span>Check out our Newsletter</span></p>
+            <div class="input">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        <div class="navigation">
+            <p>Navigate Here</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#stock">Stock</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </div>
+
+    <div class="footer-links">
+        <p><a href="#">Terms & Conditions</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Payment Security</a></p>
+        <p>&copy; CarlO 2022 All Rights Reserved</p>
+    </div>
+    <div class="social-links">
+        <a href="https://www.facebook.com/crawlmotors">Facebook</a>
+        <a href="https://www.instagram.com/crawlmotors">Instagram</a>
+        <a href="https://www.twitter.com/crawlmotors">Twitter</a>
+    </div>
+</footer>
+
+ <!-- SECTION 3 START -->
+ <script src="/scriptnew.js"></script>
+ <script src="/mixitup.min.js"></script>
+ <script>
+     var containerEl = document.querySelector('.car_container');
+
+     var mixer = mixitup(containerEl, {
+         selectors: {
+             target: '.option'
+         },
+         animation: {
+             duration: 300,
+             
+         }
+     });
+ </script>
+</body>
+</html>
+
